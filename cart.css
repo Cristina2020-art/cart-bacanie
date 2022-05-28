@@ -1,0 +1,80 @@
+body {
+	height: 100%;
+	background-color: lightgreen;
+}
+
+header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+
+table {
+	margin-top: .5em;
+	margin-bottom: .5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table div {
+	width: 150px;
+	height: 600px;
+}
+
+div#total {
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+div#contain {
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+div.fix {
+	width: 150px;
+	height: 150px;
+}
+
+div.fixed {
+	position: relative;
+	width: auto;
+	height: auto;
+	text-align: left;
+}
+
+div.fixer {
+	position: relative;
+	width: auto;
+	height: auto;
+	top: 90px;
+	text-align: left;
+}
+
+td p {
+	vertical-align: top;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: .5em;
+}
+
+#choices {
+	margin-top: .5em;
+	margin-bottom: .5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	margin-bottom: .5em;
+}
+
+p, div {
+	text-align: center;
+}

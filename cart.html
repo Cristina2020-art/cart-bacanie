@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+    <meta charset='UTF-8' />
+    <title>Pagina coșului de băcănie</title>
+    <link rel="stylesheet" type="text/css" href="./cart.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pagina coșului de băcănie</h1>
+        <p>Faceți clic pe articole pentru a le adăuga în coș</p>
+    </header>
+
+    <table id="choices">
+        <tbody>
+            <tr>
+                <td><img src="http://i.imgur.com/VwN3w55.jpg" alt="Egg" id="egg" /></td>
+                <td><img src="http://i.imgur.com/xraKNld.png" alt="muffin" id="muffin" /></td>
+                <td><img src="http://i.imgur.com/VCcDbkd.jpg" alt="pancakes" id="pancake" /></td>
+                <td><img src="http://i.imgur.com/enECS79.jpg" alt="biscuit" id="biscuit" /></td>
+                <td><img src="http://i.imgur.com/yfytv60.png" alt="Orange juice" id="oj" /></td>
+            </tr>
+            <tr>
+                <td><img src="http://i.imgur.com/azJFQF6.jpg" alt="Peanut butter and jelly" id="pbj" /></td>
+                <td><img src="http://i.imgur.com/Cd3RBsW.jpg" alt="bologna" id="bologna" /></td>
+                <td><img src="http://i.imgur.com/RzVI2bs.jpg" alt="taco" id="taco" /></td>
+                <td><img src="http://i.imgur.com/Ab8UjPw.png" alt="soup" id="soup" /></td>
+                <td><img src="http://i.imgur.com/8Zbd9TB.jpg" alt="water" id="water" /></td>
+            </tr>
+            <tr>
+                <td><img src="http://i.imgur.com/mLXkOR9.gif" alt="burger" id="burger" /></td>
+                <td><img src="http://i.imgur.com/QPTb0Lj.jpg" alt="pizza" id="pizza" /></td>
+                <td><img src="http://i.imgur.com/Kcxebmx.jpg" alt="chicken" id="chicken" /></td>
+                <td><img src="http://i.imgur.com/H5lWWXx.png" alt="salad" id="salad" /></td>
+                <td><img src="http://i.imgur.com/8KxoRZB.jpg" alt="soda" id="soda" /></td>
+            </tr>
+            <tr>
+                <td><img src="http://i.imgur.com/enAtAK0.jpg" alt="Ice cream" id="icecream" /></td>
+                <td><img src="http://i.imgur.com/jygrwtp.jpg" alt="flan" id="flan" /></td>
+                <td><img src="http://i.imgur.com/KOuYZa9.jpg" alt="cookie" id="cookie" /></td>
+                <td><img src="http://i.imgur.com/KypVHJM.jpg" alt="cupcake" id="cupcake" /></td>
+                <td><img src="http://i.imgur.com/DzxWlRg.jpg" alt="milkshake" id="milkshake" /></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="contain">
+        <p>Coș de băcănie (click item to remove)</p>
+        <input type="button" value="Clear list" onclick="clearList()" />
+        <input type="button" value="Calculate price" onclick="calculatePrice()" />
+    </div>
+    <div id="total"></div>
+    <table>
+        <tbody>
+            <tr>
+                <td><p>Breakfast items:</p>
+                    <input type="button" value="Clear column" onclick="clearColumn(this)" class="center" />
+                    <div id="breakfast"></div></td>
+                <td><p>Lunch items:</p>
+                    <input type="button" value="Clear column" onclick="clearColumn(this)" class="center" />
+                    <div id="lunch"></div></td>
+                <td><p>Dinner items:</p>
+                    <input type="button" value="Clear column" onclick="clearColumn(this)" class="center" />
+                    <div id="dinner"></div></td>
+                <td><p>Sweets:</p>
+                    <input type="button" value="Clear column" onclick="clearColumn(this)" class="center" />
+                    <div id="sweet"></div></td>
+                <td><p>Drinks:</p>
+                    <input type="button" value="Clear column" onclick="clearColumn(this)" class="center" />
+                    <div id="drink"></div></td>
+            </tr>
+        </tbody>
+    </table>
+<script src="./cart.js" type="text/javascript"></script>
+
+</body>
+</html>
